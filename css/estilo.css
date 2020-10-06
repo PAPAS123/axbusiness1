@@ -1,0 +1,195 @@
+*{
+	margin: 0px;}
+
+.body{
+	background-color: rgb(7, 245, 205);
+	color: #ffffff;
+	font-family: 'Nunito', sans-serif;
+}
+
+.navegador{
+	background: rgb(7, 245, 205);
+	color: #ffffff;
+	display: flex;
+	justify-content:space-between;
+	height: 90px;
+
+}
+.primeroA{
+	background-image: url(../img/dinero\ lloviendo.jpg);
+	background-size: contain;
+	background-repeat: repeat;
+	text-align: center;
+	padding: 100px;
+	height: 300px;
+	
+} 
+.primeroA img{
+	width: 300px;
+}
+.navegador a{
+	color: #ffffff;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	
+	align-items: center;
+	padding: 0px 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+}	 
+
+.navegador li{
+	height: inherit;
+}
+
+.logo img{
+	width: 90px;
+}
+
+.menu{
+	height: inherit;
+	
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	height: inherit;
+}
+
+.primeroA button{
+	width: 250px;
+	height: 40px;
+	background-color: orange;
+	border-radius: 24px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 30px;
+justify-content: center;
+     
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+}
+
+h1 strong{
+	color: #11e940;
+}
+
+.segundoB{
+	background: #00305c;
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	
+}
+
+.segundoB h2{
+	color: #11e940;
+	margin-bottom: 10px;
+}
+
+.segundoB p{
+	margin-bottom: 10px;
+}
+
+.terceroC{
+	background: #0da1a1;
+	color: #fd0e0e;
+	text-align: left;
+	margin: 25px 50px 200px 100px;
+	padding: 25px 100px 200px 50px;
+
+}
+
+.principal-boton{
+	align-content: center;
+}
+
+.aplicar-detalles{
+	width: 50%;
+	height: inherit;
+
+}
+.aplicar-detalles img{
+	height: 90%;
+	
+}
+.proyecto {
+	background: rgb(9, 236, 198);
+	color: black;
+	text-align: center;
+	margin: 15px;
+	padding: 15px;
+}
+
+.anuncio {
+	background: rgb(9, 236, 198);
+	color: yellow;
+	text-align: center;
+	margin: 15px;
+	padding: 15px;
+	height: 300px;
+}
+.anuncio img {
+	width: 200px;
+	height: 200px;
+	padding-top: 20px;
+}
+.proyecto img { 
+	width: 150px;
+	padding: 20px;
+}
+
+.container1{
+display : flex ;
+background-color: #091158;
+color: white;
+justify-content: space-around;
+}
+
+.conteiner2{
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.col1-container1 {
+width: 400px;
+}
+.col2-container2 {
+width: 200px;
+}
+
+.col3-container3{
+width: 300px;
+}
+
+.row1-contacto img{ 
+width: 35px;
+height: 35px;
+}
+
+.row2-contacto img {
+    width: 35px;
+    height: 35px;
+}
+.row1-redes img {
+width: 35px;
+height: 35px;
+}
+
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.row1-contacto p {
+    padding-left: 10px;
+}
